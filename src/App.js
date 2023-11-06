@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+
+import Map from './map/map';
+
+import Chat from './Chat';
+
+
+
+// import SignIn from "./Pages/SignIn"
+// import SignUp from "./Pages/SignUp"
+// import LockScreen from "./Pages/LockScreen"
+// import ResetPassword from "./Pages/ResetPassword"
+// import PhoneCode from "./Pages/PhoneCode"
+// import Layout from "./App/Layout"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div>
+       
+        <Chat/>
+        
+      </div>
+  )
 }
 
-export default App;
+export default App

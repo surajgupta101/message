@@ -1,0 +1,12 @@
+.boxheader{
+    display: flex;
+    align-items: left;
+    padding: 20px 30px;
+    height: 25px;
+    font-weight: 500;
+    border-radius: 0;
+    font-size: 22px;
+    font-family: "Inter",sans-serif;
+    border-bottom: 1px solid #e6e6e6;
+
+}
